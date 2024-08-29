@@ -1,0 +1,136 @@
+//Pregunta 2
+
+/*fun main(){
+    println("Use the val keyword when the value doesn't change.")
+	println("Use the var keyword when the value can change.")
+    println("When you define a function, you define the parameters that can be passed to it.")
+    println("When you call a function, you pass arguments for the parameters.")
+}*/
+
+//Pregunta 3
+/*
+fun main() {
+    println("New chat message from a friend")
+}
+*/
+
+//Pregunta 4
+/*
+fun main() {
+    var discountPercentage: Int = 0
+    var offer: String = ""
+    val item = "Google Chromecast"
+    discountPercentage = 20
+    offer = "Sale - Up to $discountPercentage% discount on $item! Hurry up!"
+
+    println(offer)
+}
+*/
+
+//Pregunta 5
+/*
+fun main() {
+    val numberOfAdults = 20
+    val numberOfKids = 30
+    val total = numberOfAdults + numberOfKids
+    println("The total party size is: $total")
+}
+*/
+
+//Pregunta 6
+/*
+fun main() {
+    val baseSalary = 5000
+    val bonusAmount = 1000
+    val totalSalary = "${baseSalary + bonusAmount}"
+    println("Congratulations for your bonus! You will receive a total of $totalSalary (additional bonus).")
+}
+*/
+
+//Pregunta 7 
+/*
+fun main() {
+    val firstNumber = 10
+    val secondNumber = 5
+	val result = firstNumber + secondNumber
+    
+    println("$firstNumber + $secondNumber = $result")
+}*/
+
+/*
+fun main() {
+    val firstNumber = 10
+    val secondNumber = 5
+    val thirdNumber = 8
+
+    val result = add(firstNumber, secondNumber)
+    val anotherResult = subtract(firstNumber, thirdNumber)
+	
+    println("$firstNumber + $secondNumber = $result")
+    println("$firstNumber - $thirdNumber = $anotherResult")
+}
+
+fun add(num1 : Int , num2 : Int) : Int{
+    return num1 + num2
+}
+
+fun subtract(Num1 :Int , Num2 : Int) : Int{
+    return Num1 - Num2
+}*/
+
+//Pregunta 8
+/*
+fun main() {
+    val operatingSystem = "Chrome OS"
+    val emailId = "sample@gmail.com"
+
+    println(displayAlertMessage(operatingSystem, emailId))
+}
+
+fun displayAlertMessage(val1 : String , val2 : String ) : String {
+    return "There's a new sign-in request on $val1 for your Google Account $val2."
+
+}*/
+
+//Pregunta 9 
+/*
+fun main() {
+    val Steps = 4000
+    val caloriesBurned = PEDOMETERstepsTOcalories(Steps);
+    println("Walking $Steps steps burns $caloriesBurned calories")
+}
+
+fun PEDOMETERstepsTOcalories(NumberOFStepS: Int): Double {
+    val CaloriesBURNEDforEachStep = 0.04
+    val TotalCALORIESburned = NumberOFStepS * CaloriesBURNEDforEachStep
+    return TotalCALORIESburned
+}*/
+
+//Pregunta 10
+/*
+fun main() {
+    println("Have I spent more time using my phone today: ${compareTime(300, 250)}")
+    println("Have I spent more time using my phone today: ${compareTime(300, 300)}")
+    println("Have I spent more time using my phone today: ${compareTime(200, 220)}")
+}
+
+fun compareTime(timeSpentToday: Int, timeSpentYesterday: Int): Boolean {
+    return timeSpentToday > timeSpentYesterday
+}*/
+
+//Pregunta 11
+/*
+fun main() {
+    printWeatherForCity("Ankara", 27, 31, 82)
+    printWeatherForCity("Tokyo", 32, 36, 10)
+    printWeatherForCity("Cape Town", 59, 64, 2)
+    printWeatherForCity("Guatemala City", 50, 55, 7)
+}
+
+fun printWeatherForCity(cityName: String, lowTemp: Int, highTemp: Int, chanceOfRain: Int) {
+    println("City: $cityName")
+    println("Low temperature: $lowTemp, High temperature: $highTemp")
+    println("Chance of rain: $chanceOfRain%")
+    println()
+}*/
+
